@@ -50,7 +50,7 @@ if __name__ == "__main__":
     url1 = 'http://restapi.amap.com/v3/place/text?keywords='
     url2 = '&city=beijing&output=json&offset=20&page=1&key=5b47dc0e96645c177edf8fedaddc1e97&extensions=all'
     # path = "/media/fuxihao/Data/MyWorkingDir/crawls/csv/"
-    path = '''D:\MyWorkingDir\crawls\csv\\'''
+    path = '''/csv/'''
 
     # longi_cap = 116.603039
     # lat_cap   = 40.080525

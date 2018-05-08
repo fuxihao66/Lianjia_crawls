@@ -38,7 +38,7 @@ if __name__ == "__main__":
 
     for district in districts:
         xiaoqus = get_data_of_a_dis(district)
-        path = "/media/fuxihao/Data/MyWorkingDir/crawls/"
+        path = "csv/"
         with open(path+district+'.csv', 'w', newline='', encoding='utf-8') as csvfile:
             spamwriter = csv.writer(csvfile, delimiter=' ',
                             quotechar='|', quoting=csv.QUOTE_MINIMAL)
